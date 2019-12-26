@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".activity.SplashActivity">
+
+    <TextView
+        android:id="@+id/textSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextMain"
+        android:textSize="28sp"/>
+
+    <ImageView
+        android:id="@+id/imgeSplash"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:id="@+id/interact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/imgeSplash">
+
+        <ProgressBar
+            android:id="@+id/splashProgress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/startbtn"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_btn_player"
+            android:text="START"
+            android:textColor="#ffffff"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/ratebtn"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/startbtn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_btn_player"
+            android:text="rate apps"
+            android:textColor="#ffffff"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

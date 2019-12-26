@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_policy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_star"
+            android:title="Rate Apps" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share Apps" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,747 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:1-51:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:2:1-106:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4e8bcf1b2da50aed0423463b789b2232\recyclerview-1.1.0-beta03\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\9b52db92ef3ed1a3174c352cc2162aed\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\cda3fe293ff95db25f165429b9a3fafb\jetified-play-services-ads-18.3.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\062eb74c1a6fe650432564db4113c6b5\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\82d475577d456dffaa93e38fcbfe040c\jetified-play-services-location-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7f261eaeb220ef503d75c86115677303\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f57077feaac73ce9e679b2c86ae76e87\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\504f20ba8a230101046163a478ee4fed\play-services-gass-18.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\6d5b01a61537fa9bd0e43239eef7202f\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1ef0ebb69f1a4df8338d1f75a671b4a0\play-services-places-placereport-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2b8a3547a6423f6fb15f19a78415dd89\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a30d31382de4f03f80c19b076c75b8a7\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\550bc378fc4734e9c57268bc51cdb224\jetified-play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\37c39b77d53822f54f5439ccca5a6b28\play-services-measurement-base-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d0956d6ff2d118a2fa058e66b2b844ea\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0362ff4d8672321347a402c32368f192\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\ddf6a25e6e3e5e2af441269b48288beb\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c18ea2bebf3d3f70044b8f352bfcc396\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\ec593f8d91037f6ef1bbcd6a177afa1c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\00bc847ce5b9e3ce7b40d465bffbf9e9\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4f8b5527496d67480951cc322460db7f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d2cae29ea156ecc28d8f5099dc624ed2\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4932f7e67b26f042b51fa62f1aa4816d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\8849109129fcb2f39779166fb64480b1\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5ad830c9e1047f79e3f0f7e9e42ab8ab\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a3c457ded457b98b207b4f227d629399\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\767612e54049c1347a891905a7e9d5e4\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5276819c062a92c029464122749254f1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\dbbcc99072b5616db9e0106b8ed65934\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d1ca7cd3905794bed09cb92934ccd6c2\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4276267baf989d651cf25177c247ad49\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3d4a3c67e39fa8d6d0c0f126c28b81d8\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\82b148795609bbbaf8e825fc2ff2a6bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fb2fbe77879a57ea0c5dfd6fe59ba874\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2bd7a2399386d18febb1ec9f0c181e60\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f582580d3eb247a74d915a27810a4674\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c75155371656c04dff3a027cdeb13e8a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\53b4a4cf87c0ff501a8c414cec884555\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\ffa46f3d6480310395b7b525cf59ccde\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\64ed055c454b36433d45a77285ee24d6\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3819fb4fef2e012192b32762458ba145\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e0a55c867f1be123d1850ae9314abdd4\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f4f115e359f78eee5d5616779d1c4d1e\jetified-circularimageview-3.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\bae71d3e81d451641ab14a99f3251a54\jetified-picasso-transformations-2.2.1\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\31a15be1b9cbc0e14a06206e0cbad90d\play-services-ads-base-18.3.0\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+	xmlns:dist
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:3:5-61
+	android:versionCode
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:1-51:12
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:2:11-69
+dist:module
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:6:5-40
+	dist:instant
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:6:18-37
+uses-permission#android.permission.INTERNET
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:16:5-67
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:11:5-67
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a30d31382de4f03f80c19b076c75b8a7\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a30d31382de4f03f80c19b076c75b8a7\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:24:5-79
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:24:5-79
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:12:5-79
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a30d31382de4f03f80c19b076c75b8a7\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a30d31382de4f03f80c19b076c75b8a7\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:11:5-68
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:18:5-68
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:18:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a30d31382de4f03f80c19b076c75b8a7\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a30d31382de4f03f80c19b076c75b8a7\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:13:22-78
+application
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:15:5-49:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:48:5-104:19
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:48:5-104:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\9b52db92ef3ed1a3174c352cc2162aed\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\9b52db92ef3ed1a3174c352cc2162aed\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:14:5-39:19
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:14:5-39:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\82d475577d456dffaa93e38fcbfe040c\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\82d475577d456dffaa93e38fcbfe040c\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7f261eaeb220ef503d75c86115677303\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7f261eaeb220ef503d75c86115677303\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f57077feaac73ce9e679b2c86ae76e87\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f57077feaac73ce9e679b2c86ae76e87\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\504f20ba8a230101046163a478ee4fed\play-services-gass-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\504f20ba8a230101046163a478ee4fed\play-services-gass-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\6d5b01a61537fa9bd0e43239eef7202f\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\6d5b01a61537fa9bd0e43239eef7202f\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1ef0ebb69f1a4df8338d1f75a671b4a0\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1ef0ebb69f1a4df8338d1f75a671b4a0\play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2b8a3547a6423f6fb15f19a78415dd89\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2b8a3547a6423f6fb15f19a78415dd89\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\550bc378fc4734e9c57268bc51cdb224\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\550bc378fc4734e9c57268bc51cdb224\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\37c39b77d53822f54f5439ccca5a6b28\play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\37c39b77d53822f54f5439ccca5a6b28\play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d0956d6ff2d118a2fa058e66b2b844ea\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d0956d6ff2d118a2fa058e66b2b844ea\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2bd7a2399386d18febb1ec9f0c181e60\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2bd7a2399386d18febb1ec9f0c181e60\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\31a15be1b9cbc0e14a06206e0cbad90d\play-services-ads-base-18.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\31a15be1b9cbc0e14a06206e0cbad90d\play-services-ads-base-18.3.0\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:19:9-41
+	android:hardwareAccelerated
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:17:9-43
+	android:roundIcon
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:20:9-54
+	android:icon
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:22:9-40
+	android:usesCleartextTraffic
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:23:9-44
+activity#com.pinkump3.musiconline.activity.SearchActivity
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:24:9-94
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:24:19-82
+activity#com.pinkump3.musiconline.activity.GenreActivity
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:25:9-84
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:25:19-81
+activity#com.pinkump3.musiconline.activity.MainActivity
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:26:9-28:59
+	android:theme
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:27:13-74
+activity#com.pinkump3.musiconline.activity.OtherDataActivity
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:29:9-88
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:29:19-85
+activity#com.pinkump3.musiconline.activity.PolicyActivity
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:30:9-85
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:30:19-82
+activity#com.pinkump3.musiconline.activity.PlayerMusic
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:31:9-32:58
+	android:theme
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:31:19-79
+activity#com.pinkump3.musiconline.activity.SplashActivity
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:theme
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:34:13-76
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:39:27-74
+meta-data#com.google.android.gms.version
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:42:9-44:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d0956d6ff2d118a2fa058e66b2b844ea\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d0956d6ff2d118a2fa058e66b2b844ea\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:44:13-66
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:43:13-58
+meta-data#com.google.android.gms.ads.AD_MANAGER_APP
+ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:46:9-48:35
+	android:value
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:48:13-33
+	android:name
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml:47:13-69
+uses-sdk
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:4:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4e8bcf1b2da50aed0423463b789b2232\recyclerview-1.1.0-beta03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4e8bcf1b2da50aed0423463b789b2232\recyclerview-1.1.0-beta03\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\9b52db92ef3ed1a3174c352cc2162aed\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\9b52db92ef3ed1a3174c352cc2162aed\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\cda3fe293ff95db25f165429b9a3fafb\jetified-play-services-ads-18.3.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\cda3fe293ff95db25f165429b9a3fafb\jetified-play-services-ads-18.3.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\062eb74c1a6fe650432564db4113c6b5\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\062eb74c1a6fe650432564db4113c6b5\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\82d475577d456dffaa93e38fcbfe040c\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\82d475577d456dffaa93e38fcbfe040c\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7f261eaeb220ef503d75c86115677303\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\7f261eaeb220ef503d75c86115677303\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f57077feaac73ce9e679b2c86ae76e87\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f57077feaac73ce9e679b2c86ae76e87\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\504f20ba8a230101046163a478ee4fed\play-services-gass-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\504f20ba8a230101046163a478ee4fed\play-services-gass-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\6d5b01a61537fa9bd0e43239eef7202f\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\6d5b01a61537fa9bd0e43239eef7202f\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1ef0ebb69f1a4df8338d1f75a671b4a0\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1ef0ebb69f1a4df8338d1f75a671b4a0\play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2b8a3547a6423f6fb15f19a78415dd89\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2b8a3547a6423f6fb15f19a78415dd89\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a30d31382de4f03f80c19b076c75b8a7\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a30d31382de4f03f80c19b076c75b8a7\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\550bc378fc4734e9c57268bc51cdb224\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\550bc378fc4734e9c57268bc51cdb224\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\37c39b77d53822f54f5439ccca5a6b28\play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\37c39b77d53822f54f5439ccca5a6b28\play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d0956d6ff2d118a2fa058e66b2b844ea\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d0956d6ff2d118a2fa058e66b2b844ea\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0362ff4d8672321347a402c32368f192\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\0362ff4d8672321347a402c32368f192\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\ddf6a25e6e3e5e2af441269b48288beb\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\ddf6a25e6e3e5e2af441269b48288beb\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c18ea2bebf3d3f70044b8f352bfcc396\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c18ea2bebf3d3f70044b8f352bfcc396\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\ec593f8d91037f6ef1bbcd6a177afa1c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\ec593f8d91037f6ef1bbcd6a177afa1c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\00bc847ce5b9e3ce7b40d465bffbf9e9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\00bc847ce5b9e3ce7b40d465bffbf9e9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4f8b5527496d67480951cc322460db7f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4f8b5527496d67480951cc322460db7f\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d2cae29ea156ecc28d8f5099dc624ed2\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d2cae29ea156ecc28d8f5099dc624ed2\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4932f7e67b26f042b51fa62f1aa4816d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4932f7e67b26f042b51fa62f1aa4816d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\8849109129fcb2f39779166fb64480b1\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\8849109129fcb2f39779166fb64480b1\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5ad830c9e1047f79e3f0f7e9e42ab8ab\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5ad830c9e1047f79e3f0f7e9e42ab8ab\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a3c457ded457b98b207b4f227d629399\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\a3c457ded457b98b207b4f227d629399\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\767612e54049c1347a891905a7e9d5e4\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\767612e54049c1347a891905a7e9d5e4\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5276819c062a92c029464122749254f1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\5276819c062a92c029464122749254f1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\dbbcc99072b5616db9e0106b8ed65934\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\dbbcc99072b5616db9e0106b8ed65934\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d1ca7cd3905794bed09cb92934ccd6c2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\d1ca7cd3905794bed09cb92934ccd6c2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4276267baf989d651cf25177c247ad49\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\4276267baf989d651cf25177c247ad49\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3d4a3c67e39fa8d6d0c0f126c28b81d8\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3d4a3c67e39fa8d6d0c0f126c28b81d8\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\82b148795609bbbaf8e825fc2ff2a6bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\82b148795609bbbaf8e825fc2ff2a6bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fb2fbe77879a57ea0c5dfd6fe59ba874\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fb2fbe77879a57ea0c5dfd6fe59ba874\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2bd7a2399386d18febb1ec9f0c181e60\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\2bd7a2399386d18febb1ec9f0c181e60\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\78be57497ca2a8dd090798c529f3e53d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3a992d8307f21a8f15eb649383ba6a6a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f582580d3eb247a74d915a27810a4674\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f582580d3eb247a74d915a27810a4674\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c75155371656c04dff3a027cdeb13e8a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c75155371656c04dff3a027cdeb13e8a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\53b4a4cf87c0ff501a8c414cec884555\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\53b4a4cf87c0ff501a8c414cec884555\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\ffa46f3d6480310395b7b525cf59ccde\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\ffa46f3d6480310395b7b525cf59ccde\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\64ed055c454b36433d45a77285ee24d6\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\64ed055c454b36433d45a77285ee24d6\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3819fb4fef2e012192b32762458ba145\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\3819fb4fef2e012192b32762458ba145\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e0a55c867f1be123d1850ae9314abdd4\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\e0a55c867f1be123d1850ae9314abdd4\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f4f115e359f78eee5d5616779d1c4d1e\jetified-circularimageview-3.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\f4f115e359f78eee5d5616779d1c4d1e\jetified-circularimageview-3.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\bae71d3e81d451641ab14a99f3251a54\jetified-picasso-transformations-2.2.1\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:picasso-transformations:2.2.1] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\bae71d3e81d451641ab14a99f3251a54\jetified-picasso-transformations-2.2.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\31a15be1b9cbc0e14a06206e0cbad90d\play-services-ads-base-18.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\31a15be1b9cbc0e14a06206e0cbad90d\play-services-ads-base-18.3.0\AndroidManifest.xml:5:5-44
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\cda3fe293ff95db25f165429b9a3fafb\jetified-play-services-ads-18.3.0\AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+		ADDED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+		INJECTED from D:\scnew\Pinku MP3 (v.2)\Pinku MP3\app\src\main\AndroidManifest.xml
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:8:9-63
+permission#com.pinkump3.musiconline.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:8:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:11:22-76
+uses-permission#com.pinkump3.musiconline.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:11:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:17:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:17:22-79
+uses-permission#android.permission.VIBRATE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:23:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:29:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:31:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:31:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:32:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:32:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:33:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:34:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:35:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:35:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:36:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:36:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:37:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:37:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:38:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:38:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:39:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:39:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:40:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:40:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:41:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:41:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:43:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:44:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:44:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:45:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:45:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:46:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:46:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:49:9-51:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:50:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:53:9-55:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:55:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:54:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:57:9-67:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:59:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:58:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:62:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.pinkump3.musiconline
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:62:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:63:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:65:27-58
+category#com.pinkump3.musiconline
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:65:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:68:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:68:19-74
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:70:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:70:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:71:9-73:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:73:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:72:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:74:9-76:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:76:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:75:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:77:9-79:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:79:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:78:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:80:9-82:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:82:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:81:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:83:9-85:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:85:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:84:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:87:9-89:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:89:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:88:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:91:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:91:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:93:9-98:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:93:19-62
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:94:13-97:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:95:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:95:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:96:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:96:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:99:9-103:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:99:19-63
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:100:13-102:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:101:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.12.4] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\250c1c6c18d91f69058bb788a633fb7a\jetified-OneSignal-3.12.4\AndroidManifest.xml:101:25-81
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:15:9-19:75
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:18:13-37
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:17:13-74
+	android:theme
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:19:13-72
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:16:13-68
+activity#com.facebook.ads.internal.ipc.RemoteANActivity
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:20:9-25:75
+	android:process
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:24:13-36
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:23:13-37
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:22:13-74
+	android:theme
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:25:13-72
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:21:13-74
+service#com.facebook.ads.internal.ipc.AdsProcessPriorityService
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:28:13-83
+service#com.facebook.ads.internal.ipc.AdsMessengerService
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:30:9-33:39
+	android:process
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:33:13-36
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:31:13-77
+provider#com.facebook.ads.AudienceNetworkContentProvider
+ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:35:9-38:40
+	android:authorities
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:37:13-82
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:5.6.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\55ea12e539ae6740855df4b3999c5fe9\jetified-audience-network-sdk-5.6.0\AndroidManifest.xml:36:13-75
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\1aea2ac9aa849308681c41193cca5ed5\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c6d8709a78bd6a55a00c573b1a18eaec\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\fc5193868854d7cd947541e78389eacf\play-services-ads-lite-18.3.0\AndroidManifest.xml:36:13-76
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\FANDO\.gradle\caches\transforms-2\files-2.1\c1dc853b635cc9c3609ab0ebd1964eda\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77

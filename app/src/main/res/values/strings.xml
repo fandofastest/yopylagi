@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MP3 FREE MUSIC</string>
+    <string name="api">https://api.soundcloud.com</string>
+    <string name="apiv2">https://api-v2.soundcloud.com</string>
+    <string name="json">http://yopi.marmud.com/pinkump3.json</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="genres">
+        <item>All Music Genre</item>
+        <item>Alternative Rock</item>
+        <item>Ambient</item>
+        <item>Classical</item>
+        <item>Country</item>
+        <item>Dance &amp; EDM</item>
+        <item>Dancehall</item>
+        <item>Deep House</item>
+        <item>Disco</item>
+        <item>Drum &amp; Bass</item>
+        <item>Dubstep</item>
+        <item>Electronic</item>
+        <item>Folk &amp; Singer-Songwriter</item>
+        <item>Hip-hop &amp; Rap</item>
+        <item>House</item>
+        <item>Indie</item>
+        <item>Jazz &amp; Blues</item>
+        <item>Latin</item>
+        <item>Metal</item>
+        <item>Piano</item>
+        <item>Pop</item>
+        <item>R&amp;B &amp; Soul</item>
+        <item>Reggae</item>
+        <item>Reggaeton</item>
+        <item>Rock</item>
+        <item>Soundtrack</item>
+        <item>Techno</item>
+        <item>Trance</item>
+        <item>Trap</item>
+        <item>Triphop</item>
+        <item>World</item>
+
+    </string-array>
+
+</resources>

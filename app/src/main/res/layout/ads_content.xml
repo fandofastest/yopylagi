@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ads_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/ads_title_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ads_icon"
+        android:layout_toEndOf="@+id/ads_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp">
+    <TextView
+        android:id="@+id/ads_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is ads title"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        />
+
+    <RatingBar
+        android:id="@+id/ads_rate"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ads_title"
+        android:layout_marginTop="5dp"
+        android:numStars="5"
+        android:rating="4" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/line_top"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ads_icon"
+        android:layout_marginTop="10dp"
+        android:background="#838383"/>
+
+    <TextView
+        android:id="@+id/ads_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Description Content"
+        android:layout_below="@+id/line_top"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ads_img_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="120dp"
+        android:layout_below="@+id/ads_desc"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"/>
+
+    <Button
+        android:id="@+id/ads_btn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Install now"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_btn_player"
+        android:layout_below="@+id/ads_img_large"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp" />
+
+
+</RelativeLayout>
