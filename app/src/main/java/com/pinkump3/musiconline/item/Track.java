@@ -87,6 +87,7 @@ public class Track implements Parcelable {
         dest.writeString(this.trackUrl);
         dest.writeInt(this.trackDur);
         dest.writeInt(this.trackLike);
+        dest.writeString(this.trackid);
     }
 
     protected Track(Parcel in) {
@@ -96,6 +97,7 @@ public class Track implements Parcelable {
         this.trackUrl = in.readString();
         this.trackDur = in.readInt();
         this.trackLike = in.readInt();
+        this.trackid=in.readString();
     }
 
     public static final Parcelable.Creator<Track> CREATOR = new Parcelable.Creator<Track>() {

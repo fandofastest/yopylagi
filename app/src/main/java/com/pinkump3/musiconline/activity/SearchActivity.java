@@ -139,7 +139,6 @@ public class SearchActivity extends AppCompatActivity {
 //                Toast.makeText(SearchActivity.this, "Song with Title :"+songTitle+" will play", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(SearchActivity.this, PlayerMusic.class);
                 i.putExtra(PlayerMusic.LIST_ONLINE, track);
-                i.putExtra("idsong",trackid);
                 i.putExtra("cat", "online");
                 i.putExtra("pos", position);
                 i.putExtra("origin", "search");
@@ -171,7 +170,7 @@ public class SearchActivity extends AppCompatActivity {
         @Override
         protected Void doInBackground(Void... params) {
             String data = "";
-            String title, song_url, artwork_url, song_user;
+            String title, song_url, artwork_url, song_user,song_id;
             int song_dur, song_like;
             try {
 //                URL url = new URL(apiv1 + "/tracks.json?q="+search_query.replaceAll(" ", "+")+"&client_id="+SplashActivity.sc_key+"&limit=100");
@@ -196,7 +195,7 @@ public class SearchActivity extends AppCompatActivity {
                         title = getParam.getJSONObject(i).getString("title");
                         artwork_url = getParam.getJSONObject(i).getString("artwork_url");
                         song_url = getParam.getJSONObject(i).getString("uri");
-                        trackid=getParam.getJSONObject(i).getString("id");
+                        song_id=getParam.getJSONObject(i).getString("id");
 
                         song_dur = getParam.getJSONObject(i).getInt("full_duration");
                         song_like = getParam.getJSONObject(i).getInt("likes_count");
@@ -204,10 +203,10 @@ public class SearchActivity extends AppCompatActivity {
                         JSONObject getValueUser = getParam.getJSONObject(i).getJSONObject("user");
                         song_user = getValueUser.getString("username");
 
-                        Track track = new Track (trackid,artwork_url, title, song_user, song_url, song_dur, song_like);
+                        Track track = new Track (song_id,artwork_url, title, song_user, song_url, song_dur, song_like);
                         listSearch.add(track);
 
-                        Log.d("idtrack", trackid);
+                        Log.d("idtrack", song_id);
 //                        Log.d("Thumb value", tthhhummbbb);
 //                        Log.d("Video Url", vvviiiidddurl);
                     }

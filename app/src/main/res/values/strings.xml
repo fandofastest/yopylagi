@@ -2,7 +2,7 @@
     <string name="app_name">MP3 FREE MUSIC</string>
     <string name="api">https://api.soundcloud.com</string>
     <string name="apiv2">https://api-v2.soundcloud.com</string>
-    <string name="json">http://yopi.marmud.com/pinkump3.json</string>
+    <string name="json">http://yopi.marmud.com/yopimp3.json</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 

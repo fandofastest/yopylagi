@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     RelativeLayout banner;
     SearchView searchview;
+    public static String  DOWNLOAD_DIRECTORY="/Download";
 
     TabLayout tabLayout;
     ViewPager viewPager;

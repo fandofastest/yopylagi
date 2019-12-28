@@ -2,6 +2,7 @@ package com.pinkump3.musiconline.activity;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.app.DownloadManager;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -9,6 +10,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -59,6 +61,7 @@ import java.net.URL;
 import jp.wasabeef.picasso.transformations.BlurTransformation;
 
 import static com.pinkump3.musiconline.activity.GenreActivity.listGenre;
+import static com.pinkump3.musiconline.activity.MainActivity.DOWNLOAD_DIRECTORY;
 import static com.pinkump3.musiconline.activity.MainActivity.offline_mode;
 import static com.pinkump3.musiconline.activity.SearchActivity.listSearch;
 import static com.pinkump3.musiconline.activity.SplashActivity.ads_main;
@@ -167,7 +170,6 @@ public class PlayerMusic extends AppCompatActivity implements SeekBar.OnSeekBarC
         if (extras != null) {
             cat = extras.getString("cat");
             pos = extras.getInt("pos");
-            newtrackid=extras.getString("idsong");
 
             origin = extras.getString("origin");
         }
@@ -177,8 +179,8 @@ public class PlayerMusic extends AppCompatActivity implements SeekBar.OnSeekBarC
 
             Track track = (Track) xxx.getParcelableExtra(LIST_ONLINE);
             trackTitle = track.getTrackTitle();
-            id = "https://fando.id/soundcloud.php?id="+newtrackid+"&key=YUKXoArFcqrlQn9tfNHvvyfnDISj04zk";
-            Toast.makeText(getApplicationContext(),newtrackid,Toast.LENGTH_LONG).show();
+            id = "https://fando.id/soundcloud.php?id="+track.getTrackid()+"&key=YUKXoArFcqrlQn9tfNHvvyfnDISj04zk";
+//            Toast.makeText(getApplicationContext(),track.getTrackid(),Toast.LENGTH_LONG).show();
             trackImg = track.getTrackImg();
         } else if (cat.equals("offline")) {
             TrackOff trackoff = (TrackOff) xxx.getParcelableExtra(LIST_OFFLINE);
@@ -312,22 +314,20 @@ public class PlayerMusic extends AppCompatActivity implements SeekBar.OnSeekBarC
                             mediaPlayer.pause();
                             btn_play.setImageResource(R.drawable.ic_play);
                         }
-                        mProgressDialog = new ProgressDialog(PlayerMusic.this);
-                        mProgressDialog.setMessage("Prepare for saving, please wait!");
-                        mProgressDialog.setIndeterminate(true);
-                        mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                        mProgressDialog.setCancelable(true);
+                        String cutTitle =trackTitle;
+                        cutTitle = cutTitle.replace(" ", "-").replace(".", "-") + ".mp3";
+                        DownloadManager downloadManager = (DownloadManager) getApplication().getSystemService(Context.DOWNLOAD_SERVICE);
+                        DownloadManager.Request request = new DownloadManager.Request(Uri.parse(id));
+                        request.setTitle(trackTitle);
+                        request.setDescription("Downloading");
+                        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                        request.setDestinationInExternalPublicDir(DOWNLOAD_DIRECTORY, cutTitle);
+                        request.allowScanningByMediaScanner();
+                        long downloadID = downloadManager.enqueue(request);
 
-                        // execute this when the downloader must be fired
-                        final DownloadProcess downloadTask = new DownloadProcess(PlayerMusic.this);
-                        downloadTask.execute(trackUrl + "/stream?client_id=" + SplashActivity.sc_key);
+                        Toast.makeText(getApplicationContext(), "Downloading Start", Toast.LENGTH_SHORT).show();
 
-                        mProgressDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
-                            @Override
-                            public void onCancel(DialogInterface dialog) {
-                                downloadTask.cancel(true);
-                            }
-                        });
+
 
                     } else {
                         mediaPlayer.stop();
